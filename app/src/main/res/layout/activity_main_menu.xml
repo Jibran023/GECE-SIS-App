@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_background"
+    android:background="@drawable/login_background2"
     android:gravity="center"
     android:padding="16dp"
     tools:context=".MainMenu">
@@ -31,10 +31,10 @@
 
         <Button
             android:id="@+id/student_button"
-            android:layout_width="match_parent"
+            android:layout_width="200sp"
             android:layout_height="wrap_content"
             android:text="Student"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="#FFC371"
             android:textColor="#161617"
             android:textStyle="bold"
             android:padding="18dp"
@@ -44,10 +44,10 @@
 
         <Button
             android:id="@+id/Faculty_button"
-            android:layout_width="match_parent"
+            android:layout_width="200sp"
             android:layout_height="wrap_content"
             android:text="Faculty"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="#FFC371"
             android:textColor="#000000"
             android:textStyle="bold"
             android:padding="18dp"
@@ -57,10 +57,10 @@
 
         <Button
             android:id="@+id/Admin_button"
-            android:layout_width="match_parent"
+            android:layout_width="200sp"
             android:layout_height="wrap_content"
             android:text="Admin"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="#FFC371"
             android:textColor="#141517"
             android:textStyle="bold"
             android:padding="18dp"
@@ -69,6 +69,13 @@
             tools:ignore="HardcodedText"/>
 
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="-200dp"
+        android:src="@drawable/durbeen"/>
 
 
 

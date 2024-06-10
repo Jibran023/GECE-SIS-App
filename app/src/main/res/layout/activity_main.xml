@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_background"
+    android:background="@drawable/login_background2"
     android:gravity="center"
     android:padding="16dp"
     tools:context=".MainActivity">
@@ -23,7 +23,7 @@
             android:src="@drawable/icon_account_circle"/>
 
         <EditText
-            android:layout_width="match_parent"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
             android:hint="Username"
@@ -37,7 +37,7 @@
             tools:ignore="HardcodedText" />
 
         <EditText
-            android:layout_width="match_parent"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:hint="Password"
@@ -52,12 +52,12 @@
 
         <Button
             android:id="@+id/login_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
             android:text="Login"
             android:backgroundTint="#FFFFFF"
-            android:textColor="#3B5AC8"
-            android:padding="18dp"
+            android:textColor="#07080E"
+            android:padding="12dp"
             android:layout_marginTop="32dp"
             android:textSize="20sp"
             tools:ignore="HardcodedText"/>
