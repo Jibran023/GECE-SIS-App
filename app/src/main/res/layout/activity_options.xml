@@ -232,29 +232,6 @@
 </RelativeLayout>
 
 
-<!--  <LinearLayout-->
-
-<!--      android:layout_width="match_parent"-->
-<!--      android:layout_height="wrap_content"-->
-<!--      android:layout_below="@id/first_row"-->
-<!--      android:layout_marginTop="389dp"-->
-<!--      android:gravity="center"-->
-<!--      android:orientation="horizontal">-->
-
-<!--    <ImageView-->
-<!--        android:layout_width="120dp"-->
-<!--        android:layout_height="120dp"-->
-<!--        android:layout_marginEnd="60dp"-->
-<!--        android:src="@drawable/policy"-->
-<!--        tools:ignore="HardcodedText" />-->
-
-
-<!--    <ImageView-->
-<!--        android:layout_width="120dp"-->
-<!--        android:layout_height="120dp"-->
-<!--        android:src="@drawable/info" />-->
-
-<!--  </LinearLayout>-->
 
 
 

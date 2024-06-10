@@ -33,13 +33,20 @@ class MainActivity : AppCompatActivity() {
 
         usernameInput = findViewById(R.id.username_input)
         passwordInput = findViewById(R.id.password_input)
-        loginbtn = findViewById(R.id.login_button)
 
+        val loginbtn = findViewById<Button>(R.id.login_button)
         loginbtn.setOnClickListener {
             val username = usernameInput.text.toString()
             val password = passwordInput.text.toString()
             Log.i("Test Credentials", "Username, $username and Password : $password")
 
+            val intent = Intent(this, Options::class.java)
+            startActivity(intent)
+        }
+
+
+        val backbtn_loginscrn = findViewById<Button>(R.id.login_back_button)
+        backbtn_loginscrn.setOnClickListener {
             val intent = Intent(this, MainMenu::class.java)
             startActivity(intent)
         }

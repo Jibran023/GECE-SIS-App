@@ -98,7 +98,7 @@ class Options : AppCompatActivity() {
 
         val mainmenu_backbutton = findViewById<Button>(R.id.mainmenuback_button)
         mainmenu_backbutton.setOnClickListener {
-            val intent = Intent(this, MainMenu::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 

@@ -18,14 +18,7 @@ class MainMenu : AppCompatActivity() {
         val student_button = findViewById<Button>(R.id.student_button)
         student_button.setOnClickListener {
             Toast.makeText(this, "Student Button was clicked!", Toast.LENGTH_SHORT).show()
-            val intent = Intent(this, Options::class.java) // This will take us to the screen/activity 'Options'
-            startActivity(intent)
-        }
-
-        val portal_back_button = findViewById<Button>(R.id.portalscreen_back_button)
-        portal_back_button.setOnClickListener {
-            Toast.makeText(this, "Back button was clicked!", Toast.LENGTH_SHORT).show()
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java) // This will take us to the screen/activity 'Options'
             startActivity(intent)
         }
 
