@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             val password = passwordInput.text.toString()
             Log.i("Test Credentials", "Username, $username and Password : $password")
 
-            val intent = Intent(this, Options::class.java)
+            val intent = Intent(this, MainActivityk::class.java)
             startActivity(intent)
         }
 
