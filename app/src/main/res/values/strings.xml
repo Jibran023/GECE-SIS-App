@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">DoubleScreen</string>
+    <string name="profile_button_description">Profile</string>
+    <string name="back_button_description">Back</string>
+    <string name="long_policy_text">
+    Your policy text goes here. It can be a long paragraph of 500 words or more. You can copy and paste your policy content here.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</string>
+    <string name="policy_title">Policy</string>
+    <string name="subheading1">Subheading 1</string>
+    <string name="subheading2">Subheading 2</string>
 </resources>
