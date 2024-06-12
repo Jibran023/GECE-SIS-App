@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         usernameInput = findViewById(R.id.username_input)
         passwordInput = findViewById(R.id.password_input)
 
-        val loginbtn = findViewById<Button>(R.id.login_button)
+        val loginbtn = findViewById<Button>(R.id.loginbutton)
         loginbtn.setOnClickListener {
             val username = usernameInput.text.toString()
             val password = passwordInput.text.toString()
@@ -45,11 +45,11 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        val backbtn_loginscrn = findViewById<Button>(R.id.login_back_button)
-        backbtn_loginscrn.setOnClickListener {
-            val intent = Intent(this, MainMenu::class.java)
-            startActivity(intent)
-        }
+//        val backbtn_loginscrn = findViewById<Button>(R.id.login_back_button)
+//        backbtn_loginscrn.setOnClickListener {
+//            val intent = Intent(this, MainMenu::class.java)
+//            startActivity(intent)
+//        }
 
     }
 }
