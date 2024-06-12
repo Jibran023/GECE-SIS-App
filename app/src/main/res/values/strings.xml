@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DoubleScreen</string>
+    <string name="title_activity_attendance_courselist">Attendance_courselist</string>
 </resources>
