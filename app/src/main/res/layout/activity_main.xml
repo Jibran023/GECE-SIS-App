@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     android:background="#FFFFFF"
-    tools:context=".MainActivity">
+    tools:context=".LoginScreen">
 
     <!-- Logo at the top -->
 
@@ -18,7 +18,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="0dp"
-        android:src="@drawable/durbeen2" />
+        android:src="@drawable/durbeen3" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"

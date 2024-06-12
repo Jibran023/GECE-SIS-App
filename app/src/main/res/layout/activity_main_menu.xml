@@ -5,11 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< Updated upstream
-    android:background="@drawable/login_background2"
-=======
+
     android:background="@drawable/durbeen3"
->>>>>>> Stashed changes
     android:gravity="center"
     android:padding="16dp"
     tools:context=".MainMenu">
@@ -38,11 +35,7 @@
             android:layout_width="200sp"
             android:layout_height="wrap_content"
             android:text="Student"
-<<<<<<< Updated upstream
-            android:backgroundTint="#FFC371"
-=======
             android:backgroundTint="#BBC8CB"
->>>>>>> Stashed changes
             android:textColor="#161617"
             android:textStyle="bold"
             android:padding="18dp"
@@ -55,11 +48,7 @@
             android:layout_width="200sp"
             android:layout_height="wrap_content"
             android:text="Faculty"
-<<<<<<< Updated upstream
-            android:backgroundTint="#FFC371"
-=======
             android:backgroundTint="#BBC8CB"
->>>>>>> Stashed changes
             android:textColor="#000000"
             android:textStyle="bold"
             android:padding="18dp"
@@ -72,11 +61,7 @@
             android:layout_width="200sp"
             android:layout_height="wrap_content"
             android:text="Admin"
-<<<<<<< Updated upstream
-            android:backgroundTint="#FFC371"
-=======
             android:backgroundTint="#BBC8CB"
->>>>>>> Stashed changes
             android:textColor="#141517"
             android:textStyle="bold"
             android:padding="18dp"
@@ -92,8 +77,6 @@
         android:layout_marginStart="90dp"
         android:layout_marginTop="-200dp"
         android:src="@drawable/durbeen"/>
-
-
 
 
 </RelativeLayout>
