@@ -5,15 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< Updated upstream
-    android:background="@drawable/login_background2"
-    android:gravity="center"
-    android:padding="16dp"
-=======
     android:orientation="vertical"
     android:gravity="center_horizontal"
     android:background="#FFFFFF"
->>>>>>> Stashed changes
     tools:context=".MainActivity">
 
     <!-- Logo at the top -->
@@ -29,60 +23,9 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-<<<<<<< Updated upstream
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:src="@drawable/icon_account_circle"/>
-
-        <EditText
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:hint="Username"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:textSize="20sp"
-            android:background="@drawable/rounded_corner"
-            android:padding="18dp"
-            android:inputType="text"
-            android:id="@+id/username_input"
-            tools:ignore="HardcodedText" />
-
-        <EditText
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:hint="Password"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:textSize="20sp"
-            android:background="@drawable/rounded_corner"
-            android:padding="18dp"
-            android:inputType="textPassword"
-            android:id="@+id/password_input"
-            tools:ignore="HardcodedText" />
-
-        <Button
-            android:id="@+id/login_button"
-            android:layout_width="150dp"
-            android:layout_height="70dp"
-            android:text="Login"
-            android:backgroundTint="#FFFFFF"
-            android:textColor="#07080E"
-            android:padding="12dp"
-            android:layout_marginTop="32dp"
-            android:textSize="20sp"
-            tools:ignore="HardcodedText"/>
-
-=======
         android:layout_margin="30dp"
         app:cardCornerRadius="30dp"
         app:cardElevation="20dp">
->>>>>>> Stashed changes
 
         <LinearLayout
             android:layout_width="match_parent"
