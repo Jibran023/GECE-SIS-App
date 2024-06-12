@@ -13,7 +13,7 @@ import com.example.doublescreen.databinding.ActivityMainBinding
 //import androidx.core.view.ViewCompat
 //import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+class LoginScreen : AppCompatActivity() {
 
     lateinit var binding : ActivityMainBinding
 
