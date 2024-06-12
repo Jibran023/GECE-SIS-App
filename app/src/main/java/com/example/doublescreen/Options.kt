@@ -70,9 +70,9 @@ class Options : AppCompatActivity() {
         }
 
 
-        val about_icon = findViewById<LinearLayout>(R.id.about_icon)
-        val about_imageview = findViewById<ImageView>(R.id.about_imageview)
-        val about_text = findViewById<TextView>(R.id.about_text)
+        val about_icon = findViewById<LinearLayout>(R.id.policy_icon)
+        val about_imageview = findViewById<ImageView>(R.id.policy_imageview)
+        val about_text = findViewById<TextView>(R.id.policy_text)
         about_imageview.setOnClickListener {
             Toast.makeText(this, "About Icon was clicked!", Toast.LENGTH_SHORT).show()
             //  startActivity()
@@ -83,9 +83,9 @@ class Options : AppCompatActivity() {
         }
 
 
-        val policies_icon = findViewById<LinearLayout>(R.id.policies_icon)
-        val policies_imageview = findViewById<ImageView>(R.id.policies_imageview)
-        val policies_text = findViewById<TextView>(R.id.policies_text)
+        val policies_icon = findViewById<LinearLayout>(R.id.courses_icon)
+        val policies_imageview = findViewById<ImageView>(R.id.courses_imageview)
+        val policies_text = findViewById<TextView>(R.id.courses_text)
         policies_imageview.setOnClickListener {
             Toast.makeText(this, "Policies Icon was clicked!", Toast.LENGTH_SHORT).show()
             //  startActivity()
@@ -95,12 +95,6 @@ class Options : AppCompatActivity() {
             // startActivity()
         }
 
-
-        val mainmenu_backbutton = findViewById<Button>(R.id.mainmenuback_button)
-        mainmenu_backbutton.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-        }
 
     }
 }

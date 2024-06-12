@@ -5,229 +5,301 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_background"
-    android:padding="30dp"
+    android:background="@color/white"
     tools:context=".Options">
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/std_dashboard_view"
+        />
+    <GridLayout
+        android:layout_below="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="4"
+        android:columnCount="2"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="-80dp"
 
-  <LinearLayout
-      android:id="@+id/attendance_icon"
-      android:layout_width="160dp"
-      android:layout_height="155dp"
-      android:layout_marginStart="5dp"
-      android:layout_marginBottom="30dp"
-      android:gravity="center_horizontal"
-      android:orientation="vertical"
-      tools:ignore="HardcodedText">
+        >
 
-    <ImageView
-        android:id="@+id/attendance_imageview"
-        android:layout_width="122dp"
-        android:layout_height="120dp"
-        android:layout_marginEnd="60dp"
-        android:contextClickable="true"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/attendance"
-        tools:ignore="HardcodedText" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="12dp"
 
-        <TextView
-            android:id="@+id/attendance_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="3.5dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/attendance_icon">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/attendance_imageview"
+                    android:src= "@drawable/attendancek"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Attendance"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:id="@+id/attendance_text"
+
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_margin="12dp"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/announcement_icon">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/announcement_viewimage"
+                    android:src= "@drawable/announcement"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Announcement"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:id="@+id/announcement_text"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="12dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_margin="12dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Attendance"
-            android:textColor="@android:color/white"
-            android:textStyle="bold"
-            tools:ignore="HardcodedText" />
-  </LinearLayout>
+            android:orientation="vertical"
+            android:id="@+id/complain_icon">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/complain_imageview"
+                android:src= "@drawable/feedback_24"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complain and feedback"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:id="@+id/complain_text"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="12dp"
+            >
 
 
-  <LinearLayout
-      android:id="@+id/announcement_icon"
-      android:layout_width="160dp"
-      android:layout_height="155dp"
-      android:layout_marginStart="180dp"
-      android:layout_marginBottom="30dp"
-      android:gravity="center_horizontal"
-      android:orientation="vertical"
-      tools:ignore="HardcodedText">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/grades_icon">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/grades_imageview"
+                    android:src= "@drawable/grade"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grades"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:id="@+id/grades_text"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_margin="12dp"
+
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/courses_icon">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/courses_imageview"
+                    android:src= "@drawable/academic"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Courses"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:id="@+id/courses_text"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_margin="12dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/policy_icon">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/policy_imageview"
+                    android:src= "@drawable/policy"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Policy"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:id="@+id/policy_text"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
 
     <ImageView
-        android:id="@+id/announcement_viewimage"
-        android:layout_width="122dp"
-        android:layout_height="120dp"
-        android:layout_marginEnd="60dp"
-        android:contextClickable="true"
-        android:layout_marginStart="62dp"
+        android:id="@+id/studentdashboardprofilebtn"
+        android:layout_width="58dp"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
-        android:src="@drawable/comment"
-        tools:ignore="HardcodedText" />
-
-    <TextView
-        android:id="@+id/announcement_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="3.5dp"
-        android:gravity="center"
-        android:text="Announcements"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        tools:ignore="HardcodedText" />
-  </LinearLayout>
-
-  <LinearLayout
-      android:id="@+id/policies_icon"
-      android:layout_width="160dp"
-      android:layout_height="155dp"
-      android:layout_marginStart="180dp"
-      android:layout_marginBottom="30dp"
-      android:layout_marginTop="440dp"
-      android:gravity="center_horizontal"
-      android:orientation="vertical"
-      tools:ignore="HardcodedText">
+        android:layout_marginLeft="347dp"
+        tools:srcCompat="@drawable/baseline_account_circle_24" />
 
     <ImageView
-        android:id="@+id/policies_imageview"
-        android:layout_width="122dp"
-        android:layout_height="120dp"
-        android:layout_marginEnd="60dp"
-        android:contextClickable="true"
-        android:layout_marginStart="65dp"
+        android:id="@+id/studentdashboardbackbtn"
+        android:layout_width="58dp"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
-        android:src="@drawable/announcement"
-        tools:ignore="HardcodedText" />
-
-    <TextView
-        android:id="@+id/policies_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="3.5dp"
-        android:layout_marginStart="3dp"
-        android:gravity="center"
-        android:text="Policies"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        tools:ignore="HardcodedText" />
-  </LinearLayout>
-
-  <LinearLayout
-      android:id="@+id/grades_icon"
-      android:layout_width="160dp"
-      android:layout_height="165dp"
-      android:layout_marginStart="180dp"
-      android:layout_marginBottom="30dp"
-      android:layout_marginTop="220dp"
-      android:gravity="center_horizontal"
-      android:orientation="vertical"
-      tools:ignore="HardcodedText">
-
-    <ImageView
-        android:id="@+id/grades_imageview"
-        android:layout_width="122dp"
-        android:layout_height="120dp"
-        android:layout_marginEnd="60dp"
-        android:contextClickable="true"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="-5dp"
-        android:src="@drawable/academic"
-        tools:ignore="HardcodedText" />
-
-    <TextView
-        android:id="@+id/grades_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="18.5dp"
-        android:gravity="center"
-        android:text="Grades"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        tools:ignore="HardcodedText" />
-  </LinearLayout>
-
-  <LinearLayout
-      android:id="@+id/complain_icon"
-      android:layout_width="160dp"
-      android:layout_height="155dp"
-      android:layout_marginStart="5dp"
-      android:layout_marginBottom="30dp"
-      android:layout_marginTop="220dp"
-      android:gravity="center_horizontal"
-      android:orientation="vertical"
-      tools:ignore="HardcodedText">
-
-    <ImageView
-        android:id="@+id/complain_imageview"
-        android:layout_width="122dp"
-        android:layout_height="120dp"
-        android:layout_marginEnd="60dp"
-        android:contextClickable="true"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/speaker"
-        tools:ignore="HardcodedText" />
-
-    <TextView
-        android:id="@+id/complain_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="3.5dp"
-        android:gravity="center"
-        android:text="Complain"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        tools:ignore="HardcodedText" />
-  </LinearLayout>
-
-  <LinearLayout
-      android:id="@+id/about_icon"
-      android:layout_width="160dp"
-      android:layout_height="155dp"
-      android:layout_marginStart="5dp"
-      android:layout_marginBottom="30dp"
-      android:layout_marginTop="440dp"
-      android:gravity="center_horizontal"
-      android:orientation="vertical"
-      tools:ignore="HardcodedText">
-
-    <ImageView
-        android:id="@+id/about_imageview"
-        android:layout_width="122dp"
-        android:layout_height="120dp"
-        android:layout_marginEnd="60dp"
-        android:contextClickable="true"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/info"
-        tools:ignore="HardcodedText" />
-
-    <TextView
-        android:id="@+id/about_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="3.5dp"
-        android:gravity="center"
-        android:text="About"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        tools:ignore="HardcodedText" />
-  </LinearLayout>
-
-
-  <Button
-      android:id="@+id/mainmenuback_button"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_marginStart="130dp"
-      android:layout_marginEnd="130dp"
-      android:text="Back"
-      android:backgroundTint="#FFFFFF"
-      android:textColor="#141517"
-      android:padding="1dp"
-      android:layout_marginTop="620dp"
-      android:textSize="18sp"
-      tools:ignore="HardcodedText"/>
-
+        android:layout_marginLeft="8dp"
+        app:srcCompat="@drawable/arrow_back_ios_24" />
 
 </RelativeLayout>
 
