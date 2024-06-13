@@ -13,21 +13,8 @@
         android:theme="@style/Theme.DoubleScreen"
         tools:targetApi="31">
         <activity
-
-            android:name=".MainActivityPolicy"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivityStaff"
-            android:exported="false" />
-
             android:name=".attendance_courses"
             android:exported="false" />
-        <activity
-            android:name=".Attendance_courselist"
-            android:exported="false"
-            android:label="@string/title_activity_attendance_courselist"
-            android:theme="@style/Theme.DoubleScreen" />
-
         <activity
             android:name=".MainActivityk"
             android:exported="false" />
@@ -38,11 +25,10 @@
             android:name=".MainMenu"
             android:exported="false" />
         <activity
-            android:name=".LoginScreen"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

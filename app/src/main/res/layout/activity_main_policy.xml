@@ -5,18 +5,19 @@
     >
 
 
-    <ImageButton
-        android:background="@drawable/circle"
-        android:id="@+id/back_button"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_margin="25dp"
+<!--    <ImageButton-->
+<!--        android:background="@drawable/circle"-->
+<!--        android:id="@+id/back_button"-->
+<!--        android:layout_width="55dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:autofillHints="This is policy"-->
+<!--        android:layout_margin="25dp"/>-->
 
-        android:contentDescription="@string/profile_button_description"
-        android:src="@drawable/back"
-        android:scaleType="centerInside"/>
+<!--        android:contentDescription="@string/profile_button_description"-->
+<!--        android:src="@drawable/back"-->
+<!--        android:scaleType="centerInside"/>-->
     <!-- Orange Bold Policy Title -->
     <TextView
         android:id="@+id/title_policy"
@@ -52,20 +53,21 @@
             android:id="@+id/subheading1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/subheading1"
             android:textSize="20sp"
-            android:textColor="@color/primary_orange"
             android:textStyle="bold"
             android:layout_marginTop="40dp"
-            android:layout_marginStart="16dp"
-             />
+            android:layout_marginStart="16dp"/>
+<!--            android:text="@string/subheading1"-->
+
+<!--            android:textColor="@color/primary_orange"-->
+
+
 
         <!-- Paragraph 2 -->
         <TextView
             android:id="@+id/policy_text_part2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/long_policy_text"
             android:textSize="16sp"
             android:padding="16dp" />
 
@@ -74,9 +76,7 @@
             android:id="@+id/subheading2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/subheading2"
             android:textSize="20sp"
-            android:textColor="@color/primary_orange"
             android:textStyle="bold"
             android:layout_marginTop="15dp"
             android:layout_marginStart="16dp"/>
@@ -86,7 +86,6 @@
             android:id="@+id/policy_text_part3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/long_policy_text"
             android:textSize="16sp"
             android:padding="16dp" />
     </LinearLayout>
